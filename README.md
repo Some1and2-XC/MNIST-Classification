@@ -1,6 +1,5 @@
 # MNIST Image Classification
-## @Some1and2
----
+###### @Some1and2
 ## Python Program for Classifying the MNIST Image Dataset
 ### Processes
  - Data Initialization
