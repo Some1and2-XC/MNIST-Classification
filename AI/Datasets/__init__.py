@@ -83,7 +83,8 @@ def DataINIT() -> bool:
 			# If the file isn't found then returns false
 			if Filename not in DirectoryValues:
 				return False
-		return True # If all the files are found return true
+		else:
+			return True # If all the files are found return true
 
 	if not VerifyData(): # If all the files are not found
 		DownloadData() # Download the data
