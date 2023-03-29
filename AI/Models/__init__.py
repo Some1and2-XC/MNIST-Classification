@@ -24,7 +24,6 @@ class Model:
 		Function for initializing the model
 		"""
 
-
 		self.title = FindTitle() # Sets the title of the model to be a random
 
 	def Train(self):
