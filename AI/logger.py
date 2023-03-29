@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 
-Sets up Logger for the program
+Sets up Logger
 
 Author	: @some1and2
 Date	: 3/29/2023

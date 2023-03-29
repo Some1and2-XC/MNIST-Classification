@@ -14,6 +14,7 @@ import logging
 
 import numpy as np
 
+## Sets up Logger ##
 logger = logging.getLogger("main")
 
 ## Setting Package Variables ##
@@ -91,10 +92,11 @@ def DataINIT() -> bool:
 
 	return True
 
-def DataImport(mode: str = "test") -> tuple:
+def DataImport(mode: str = "train") -> tuple:
 	"""
 	Function for returning the data from file
 	Returns numpy array of the data
+	The mode defines which files should be returned (either "test" or "train")
 	"""
 
 	## Imports the files ##

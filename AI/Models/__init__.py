@@ -10,7 +10,12 @@ Date	: 3/29/2023
 """
 
 from os import path
+from .. import Datasets
 
+## Sets up Logger ##
+logger = logging.getLogger("main")
+
+## Setting Package Variables ##
 ModeDestination	= __path__[0] # Sets the destination of the data
 
 class Model:
@@ -21,6 +26,21 @@ class Model:
 
 
 		self.title = FindTitle() # Sets the title of the model to be a random
+
+	def Train(self):
+		"""
+		Function for training the model
+		"""
+
+	def Eval(self):
+		"""
+		Function for evaluating the output of the model
+		"""
+
+	def Save(self, FileName):
+		"""
+		Function for saving the settings of the model
+		"""
 
 def FindTitle(OutLength: int = 4) -> str:
 	"""
