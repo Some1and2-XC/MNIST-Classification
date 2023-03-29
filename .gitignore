@@ -2,3 +2,4 @@
 *.zip
 Data/
 *.npy
+__pycache__/
